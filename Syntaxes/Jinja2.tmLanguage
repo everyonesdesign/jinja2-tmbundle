@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>({%)\s*(raw)\s*(%})</string>
+			<string>({%)-?\s*(raw)\s*-?(%})</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -36,7 +36,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>({%)\s*(endraw)\s*(%})</string>
+			<string>({%)-?\s*(endraw)\s*-?(%})</string>
 			<key>name</key>
 			<string>comment.block.jinja2.raw</string>
 		</dict>
